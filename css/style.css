@@ -1,0 +1,20 @@
+body{
+    background-color: #2c760a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.pdiferente{
+    color: rgb(216, 16, 183);
+}
+.cursivaSemantica{
+    color: aqua;
+}
+.divRGBA{
+    width: 50%;
+    background-color: bisque;
+    padding: 20px;
+    margin-top: 50px;
+    margin: auto;
+}

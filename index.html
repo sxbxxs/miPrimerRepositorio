@@ -4,22 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        p{
+            /* Aplicar colores al texto */
+            color: red;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+    <!-- traer de un archivo externo -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="divRGBA"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur quisquam hic distinctio ex eveniet velit illo. Architecto id natus recusandae quasi maiores eveniet molestiae eius voluptatibus! Quod est mollitia dignissimos!</div>
 <br>
-<p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero accusantium, architecto ea cupiditate unde modi mollitia ad aliquid, neque deserunt corporis atque, illo cum vitae nobis quos minima et quasi! </p>
+<p class="pdiferente">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero accusantium, architecto ea cupiditate unde modi mollitia ad aliquid, neque deserunt corporis atque, illo cum vitae nobis quos minima et quasi! </p>
 <br>
 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga illum asperiores maiores non laborum, eligendi assumenda? Neque aliquid quia similique commodi, assumenda fugit incidunt, repellendus ratione cumque voluptatum facilis sapiente!</p>
 <br>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit sunt obcaecati repudiandae, dolor, porro quisquam ullam eaque accusamus quaerat molestiae cumque atque saepe ab quae totam vel officia! Dicta, facilis!</p>
 
 <br>
-<i> texto en cursiva </i>
+<i class="cursivaSemantica"> texto en cursiva </i>
 <br>
-<em> cursiva con peso semantico </em>
+<em class="cursivaSemantica"> cursiva con peso semantico </em>
 <br>
-<small> Texto pequeño </small>
+<small class="cursivaSemantica"> Texto pequeño </small>
 <br>
 <!-- sub indices y super indices -->
 <p> F <sub> (x) </sub> = 2X <sup> -4X </sup></p>
@@ -103,7 +114,7 @@
 <br>
 <!-- formularios  -->
  <!-- division -->
-<div style="width: 100%; background-color: blue;"> 
+<div style="width: 100%; background-color: rgb(23, 180, 49);"> 
 <form action=""> 
 
     <label for=""> Formulario Estudiante nuevo </label>
@@ -162,6 +173,8 @@
     <h3> Video local </h3>
 
     <video src="video/video1.mp4" controls> </video>
+
+
 </form>
 </div>
 
